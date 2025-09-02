@@ -139,8 +139,13 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
    - clash.meta（[clash-verge-rev
 ](https://github.com/clash-verge-rev/clash-verge-rev)，[Clash Nyanpasu](https://github.com/keiko233/clash-nyanpasu)，~[clash-verge](https://github.com/zzzgydi/clash-verge/tree/main)~，ClashX Meta）
    - sing-box（SFI）
+## 天气查询脚本
+仓库中新增 `weather.js` 脚本，利用 [Open-Meteo](https://open-meteo.com/) 获取指定城市的当前天气。
+该脚本依赖 Node.js 18 及以上版本内置的 `fetch`，请确保运行环境符合要求。
 
-
+```bash
+node weather.js <城市名称>
+```
 
 # 感谢
 [zizifn](https://github.com/zizifn/edgetunnel)、[3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)、[Stanley-baby](https://github.com/Stanley-baby)、[ACL4SSR](https://github.com/ACL4SSR)、[SHIJS1999](https://github.com/SHIJS1999/cloudflare-worker-vless-ip)、[fatkun](https://github.com/fatkun)
